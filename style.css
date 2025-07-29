@@ -1,6 +1,50 @@
+* {
+  font-family: 'Comic Sans MS';
+  border-radius: 10px;
+  border-width: 0px;
+}
+
 body {
-  color: rgb(164, 172, 189);
-  background-color: #1d2d33;
-  padding: 100px;
-  border-radius: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 68, 57);
+}
+
+#calbut {
+  color: rgb(0, 0, 0);
+  background-color: #dbdbdb;
+  margin: 2px;  
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+#calbut:active {
+  background-color: #8d8d8d;
+}
+
+.row {
+  display: flex;
+  margin-bottom:0;
+  padding:0px;
+}
+
+.lbl {
+  background-color: #dbdbdb;
+  margin: 2px;
+  padding-left: 10px;
+  width:256px;
+  height: 50px;
+  text-align:justify;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.main-frame {
+  border-radius: 15px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #bbbbbb;
 }
