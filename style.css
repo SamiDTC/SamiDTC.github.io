@@ -12,7 +12,7 @@ body {
   background-color: rgb(35, 68, 57);
 }
 
-#calbut {
+.calbut {
   color: rgb(0, 0, 0);
   background-color: #dbdbdb;
   margin: 2px;  
@@ -21,17 +21,17 @@ body {
   font-size: 30px;
 }
 
-#calbut:active {
+.calbut:active {
   background-color: #8d8d8d;
 }
 
-.row {
+#row {
   display: flex;
   margin-bottom:0;
   padding:0px;
 }
 
-.lbl {
+#lbl {
   background-color: #dbdbdb;
   margin: 2px;
   padding-left: 10px;
@@ -42,7 +42,7 @@ body {
   line-height: 50px;
 }
 
-.main-frame {
+#main-frame {
   border-radius: 15px;
   padding: 15px;
   display: inline-block;
